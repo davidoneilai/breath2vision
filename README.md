@@ -40,6 +40,9 @@ Com o avanço da tecnologia, surge a oportunidade de aplicar visão computaciona
 Será utilizado o **ICBHI 2017 Respiratory Sound Database**, que contém 6.898 ciclos respiratórios de 126 pacientes, incluindo sons normais e patológicos (sibilos e estertores), relacionados a diversas doenças respiratórias.
 
 - [Mais informações sobre o ICBHI Dataset](https://www.researchgate.net/figure/ICBHI-respiratory-database-comprised-of-LS-from-various-pulmonary-pathologies_fig4_345978905?)
+- Exemplo de dados no dataset
+![image](https://github.com/user-attachments/assets/53cb0b9a-ae19-465f-a503-7974d8a6dcb4)
+
 
 ---
 
