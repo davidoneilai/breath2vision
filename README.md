@@ -37,7 +37,7 @@ Um projeto de visão computacional para detecção de doenças respiratórias us
 
 - **Primeira:** [Canva - Apresentação 1](https://www.canva.com/design/DAGo4JbsSp8/1kJs54DPFxzRtpSz-_x6Vw/edit?utm_content=DAGo4JbsSp8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - **Segunda:** [Canva - Apresentação 2](https://www.canva.com/design/DAGrficeyP4/C8f6vcgq--48RCk6MnfEWg/edit?utm_content=DAGrficeyP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- **Final:** [Canva - Apresentação Final]()
+- **Final:** [Canva - Apresentação Final](https://www.canva.com/design/DAGrgPCVTtk/yCI-ERUwg8zNx0IwSfLObg/edit?utm_content=DAGrgPCVTtk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
