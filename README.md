@@ -24,9 +24,11 @@ Um projeto de visão computacional para detecção de doenças respiratórias us
     - [📐 Métricas de Avaliação](#-métricas-de-avaliação)
   - [🎯 Resultados](#-resultados)
     - [CNN](#cnn)
-      - [Resumo das métricas do modelo](#resumo-das-métricas-do-modelo)
+      - [Métricas do modelo](#métricas-do-modelo)
     - [YOLO](#yolo)
+      - [Métricas do modelo](#métricas-do-modelo-1)
   - [✅ Conclusões](#-conclusões)
+    - [Possíveis próximos passos](#possíveis-próximos-passos)
   - [📚 Referências](#-referências)
 
 ---
@@ -105,7 +107,7 @@ Exemplo de dados no dataset:
 ![metricas_classes_cnn](assets/metricas_classes_cnn.png)
 
 
-#### Resumo das métricas do modelo
+#### Métricas do modelo
 
 Acurácia Final: 0.9617
 Loss Final: 0.1773
@@ -116,9 +118,31 @@ Overfitting Score: 0.0267
 
 ### YOLO
 
+![metricas_yolo](assets/metricas_yolo.png)
+
+#### Métricas do modelo
+
+Acurácia Final: 0.975
+Recall: 0.99
+Box Loss Final: 0.07154
+
 ---
 
 ## ✅ Conclusões
+
+O Breath2Vision demonstrou que a combinação de espectrogramas de sons pulmonares com modelos de aprendizado profundo pode alcançar desempenho robusto na detecção automática de doenças respiratórias:
+
+- **Alto poder discriminativo** – As CNNs alcançaram 96% de acurácia geral (F1 ≈ 0,96) e o pipeline YOLO superou 97%, confirmando que representações visuais dos sinais de áudio contêm informações suficientes para classificar padrões respiratórios complexos.
+
+- **Reprodutibilidade e escalabilidade** – O uso do dataset ICBHI 2017 e métricas padronizadas facilita a comparação com trabalhos futuros e a extensão para bancos de dados maiores ou doenças emergentes (COVID-19, bronquiolite, etc.).
+
+### Possíveis próximos passos
+
+- Aquisição de dados multi-centro (≥ 1 000 pacientes) para reforçar robustez e reduzir viés demográfico.
+- Ensembles leves (CNN + transformers) para capturar dependências temporais de longo prazo sem sacrificar latência.
+- Deploy móvel em Android/iOS, com avaliação de consumo energético em hardware modesto.
+- Estudo clínico prospectivo medindo tempo de diagnóstico e concordância com pneumologistas.
+- Módulo de explicabilidade alinhado às diretrizes para aumentar confiança do profissional de saúde.
 
 ---
 
